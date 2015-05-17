@@ -1,6 +1,43 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
+ """
+    SYNOPSIS
+
+    xmltv_tools is a python script to manipulate xmltv listings
+    It can be found here:
+
+         https://github.com/tvgrabbers/xmltvtools/
+
+    USAGE
+
+    Check the web site above and/or run script with --help and start from there
+
+    REQUIREMENTS
+
+    * Python 2.6 or 2.7
+
+    QUESTIONS
+
+    Questions (and patches) are welcome at:
+    https://github.com/tvgrabbers/xmltvtools/issues
+
+    LICENSE
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"""
+
 import sys, codecs, locale, argparse
 import io, os, os.path, time, datetime
 from xml.etree import cElementTree as ET
