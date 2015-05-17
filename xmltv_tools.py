@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
- """
+"""
     SYNOPSIS
 
     xmltv_tools is a python script to manipulate xmltv listings
